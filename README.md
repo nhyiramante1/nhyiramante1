@@ -29,8 +29,11 @@ intersection of software engineering, AI systems, and creative technology.
   your words back; every card, hierarchy, and connection is user-authored,
   and code-level validators enforce that the AI's reflections stay grounded
   in the user's vocabulary. 550+ tests, including a fuzz harness that runs
-  the full loop against an adversarial mock LLM.
-
+  the full loop against an adversarial mock LLM. On the product side, I
+  migrated the platform's authentication from Auth0 to Better Auth —
+  sessions, Google OAuth, the OAuth device flow, and protected API
+  endpoints.
+  
 - **[Nhyira OS](https://nhyiramante.com/projects/nhyira-os)** — A personal
   creative operating system bringing together software, writing, media, and
   interaction design. Vite + React SPA with scroll-driven motion, Hono API,
@@ -79,10 +82,10 @@ intersection of software engineering, AI systems, and creative technology.
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img alt="Hono" src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white">
   <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
+  <img alt="Better Auth" src="https://img.shields.io/badge/Better_Auth-000000?style=for-the-badge&logo=betterauth&logoColor=white">
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white">
 </p>
-
 ### Other Languages and Tools
 
 <p>
