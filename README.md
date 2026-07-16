@@ -2,12 +2,11 @@
 
 **Software developer · builder · creative technologist**
 
-I build web applications, backend systems, and creative tools that make
-complex work feel clear, considered, and human.
+I build web applications, backend systems, and AI tools where the human
+stays the author and the machine stays accountable.
 
-I'm a Computer Science student at Calvin University, exploring the
-intersection of software engineering, product design, AI workflows,
-and creative technology.
+I'm a Computer Science student at Calvin University, working at the
+intersection of software engineering, AI systems, and creative technology.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-nhyiramante.com-111111?style=flat-square&logo=vercel&logoColor=white)](https://nhyiramante.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Nhyira_Mante-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nhyiramante1)
@@ -15,14 +14,49 @@ and creative technology.
 
 ## 🚧 Currently Building
 
-- **[Nhyira OS](https://nhyiramante.com/projects/nhyira-os)** — A personal creative operating system bringing together software, writing, media, and interaction design.
-- **[Local Dual Agent](https://github.com/nhyiramante1/Local-Dual-Agent)** — A local coding orchestrator that helps Claude Code and OpenAI Codex collaborate through clear task boundaries, review loops, and human approval.
-- **[First Thought](https://nhyiramante.com/projects/first-thought)** — A browser-based word-association game exploring language, pace, and reflection through play.
+- **[Duet / Local Dual Agent](https://github.com/nhyiramante1/Local-Dual-Agent)** —
+  A local multi-agent coding orchestrator. Claude Code and OpenAI Codex
+  implement and review each other's work in isolated git worktrees, behind
+  human plan and merge approvals. Persistent Node/TypeScript service,
+  versioned HTTP API, SQLite persistence, and a web dashboard with a
+  native tool-calling manager agent (Groq / Gemini / OpenAI-compatible).
+  200+ tests.
+
+- **Reflective mind-mapping** *(research prototype,
+  [AIToolsLab/writing-tools](https://github.com/AIToolsLab/writing-tools))* —
+  An AI writing tool that helps you externalize *your own* thinking into a
+  map without ever authoring structure for you. The AI questions and mirrors
+  your words back; every card, hierarchy, and connection is user-authored,
+  and code-level validators enforce that the AI's reflections stay grounded
+  in the user's vocabulary. 550+ tests, including a fuzz harness that runs
+  the full loop against an adversarial mock LLM.
+
+- **[Nhyira OS](https://nhyiramante.com/projects/nhyira-os)** — A personal
+  creative operating system bringing together software, writing, media, and
+  interaction design. Vite + React SPA with scroll-driven motion, Hono API,
+  deployed on Cloudflare Workers.
+
+## 🧠 How I think about AI tools
+
+- **Trust model judgment; verify model authority.** In Duet, agents propose —
+  approving, merging, and running are human actions, enforced by the backend,
+  not by prompts.
+- **AI can reveal its thinking; it can't hand you an artifact to
+  rubber-stamp.** The mind-map prototype shows the writer exactly what the
+  AI is tracking and waiting for — but nothing reaches the map unless the
+  user says it in their own words and confirms it.
+- **Enforcement in code, calibration in config.** Guarantees live in tested
+  code paths, not in system prompts. If a constraint matters, there's a
+  validator and a regression test behind it.
 
 ## ✨ Selected Public Work
 
 - **[Local Dual Agent](https://github.com/nhyiramante1/Local-Dual-Agent)**  
   An orchestration workspace for collaborative AI coding workflows.
+
+- **[First Thought](https://nhyiramante.com/projects/first-thought)**  
+  A browser-based word-association game exploring language, pace, and
+  reflection through play.
 
 - **[Clicker Challenge](https://github.com/nhyiramante1/Clicker_Challenge)**  
   A 2D reaction-based shooter game built with Python, Tkinter, and Pygame.
@@ -42,10 +76,11 @@ and creative technology.
 ### Backend and Platform
 
 <p>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <img alt="Hono" src="https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white">
   <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
-  <img alt="REST APIs" src="https://img.shields.io/badge/REST_APIs-111111?style=for-the-badge">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white">
 </p>
 
 ### Other Languages and Tools
@@ -55,11 +90,6 @@ and creative technology.
   <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
-
-## 🧠 Current Interests
-
-`AI-assisted products` · `Agent orchestration` · `Human review` ·
-`Interaction design` · `Creative tooling`
 
 ## Beyond Code
 
