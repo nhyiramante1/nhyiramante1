@@ -14,6 +14,19 @@ intersection of software engineering, AI systems, and creative technology.
 
 ## 🚧 Currently Building
 
+- **Reflective mind-mapping** *(research,
+  [AIToolsLab/writing-tools](https://github.com/AIToolsLab/writing-tools))* —
+  An AI writing tool that helps you externalize *your own* thinking into a
+  map without ever authoring structure for you. The AI questions and mirrors
+  your words back; every card, hierarchy, and connection is user-authored,
+  with the guarantees enforced in code and hardened by a property-based fuzz
+  harness that attacks the system with an adversarial mock LLM.
+  **Co-first author on the resulting paper, under review at a major HCI
+  venue.** On the product side, I migrated the platform's authentication
+  from Auth0 to Better Auth — sessions, Google OAuth, protected endpoints,
+  and the OAuth device authorization flow (built because a Word add-in
+  taskpane can't rely on browser cookies).
+
 - **[Duet / Local Dual Agent](https://github.com/nhyiramante1/Local-Dual-Agent)** —
   A local multi-agent coding orchestrator. Claude Code and OpenAI Codex
   implement and review each other's work in isolated git worktrees, behind
@@ -22,22 +35,10 @@ intersection of software engineering, AI systems, and creative technology.
   native tool-calling manager agent (Groq / Gemini / OpenAI-compatible).
   200+ tests.
 
-- **Reflective mind-mapping** *(research prototype,
-  [AIToolsLab/writing-tools](https://github.com/AIToolsLab/writing-tools))* —
-  An AI writing tool that helps you externalize *your own* thinking into a
-  map without ever authoring structure for you. The AI questions and mirrors
-  your words back; every card, hierarchy, and connection is user-authored,
-  and code-level validators enforce that the AI's reflections stay grounded
-  in the user's vocabulary. 550+ tests, including a fuzz harness that runs
-  the full loop against an adversarial mock LLM. On the product side, I
-  migrated the platform's authentication from Auth0 to Better Auth —
-  sessions, Google OAuth, the OAuth device flow, and protected API
-  endpoints.
-  
-- **[Nhyira OS](https://nhyiramante.com/projects/nhyira-os)** — A personal
-  creative operating system bringing together software, writing, media, and
-  interaction design. Vite + React SPA with scroll-driven motion, Hono API,
-  deployed on Cloudflare Workers.
+- **[Nhyira OS](https://nhyiramante.com)** — A personal creative operating
+  system bringing together software, writing, media, and interaction
+  design. Vite + React SPA with scroll-driven motion, Hono API, deployed
+  on Cloudflare Workers.
 
 ## 🧠 How I think about AI tools
 
@@ -45,12 +46,13 @@ intersection of software engineering, AI systems, and creative technology.
   approving, merging, and running are human actions, enforced by the backend,
   not by prompts.
 - **AI can reveal its thinking; it can't hand you an artifact to
-  rubber-stamp.** The mind-map prototype shows the writer exactly what the
+  rubber-stamp.** The mind-map system shows the writer exactly what the
   AI is tracking and waiting for — but nothing reaches the map unless the
   user says it in their own words and confirms it.
 - **Enforcement in code, calibration in config.** Guarantees live in tested
-  code paths, not in system prompts. If a constraint matters, there's a
-  validator and a regression test behind it.
+  code paths — including property-based fuzzing against an adversarial
+  LLM — not in system prompts. If a constraint matters, there's a validator
+  behind it.
 
 ## ✨ Selected Public Work
 
@@ -86,6 +88,7 @@ intersection of software engineering, AI systems, and creative technology.
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
   <img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white">
 </p>
+
 ### Other Languages and Tools
 
 <p>
@@ -96,11 +99,11 @@ intersection of software engineering, AI systems, and creative technology.
 
 ## Beyond Code
 
-I write about what I learn, edit video, and have several years of experience
-leading multimedia teams and mentoring emerging leaders.
+I work as a writing consultant at my university's Rhetoric Centre — the
+same non-directive philosophy that shapes the AI tools I build. I edit
+video, led a multimedia team for three years, and write about what I learn.
 
-I've also earned international STEM recognition, including a Gold Award at
-the VANDA Science Global Finals and awards across science and mathematics
-competitions.
+I've also earned international STEM recognition, including a Gold Medal at
+the VANDA Science Global Finals and medals across Singapore math olympiads.
 
 Explore the fuller story at **[nhyiramante.com](https://nhyiramante.com)**.
