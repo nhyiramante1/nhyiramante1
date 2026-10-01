@@ -24,7 +24,8 @@ intersection of software engineering, AI systems, and creative technology.
   Neon with Drizzle, Better Auth, over-the-air updates. I designed the review
   process that let Claude Code and Codex build in parallel from one shared plan,
   with every change reviewed by a different agent and nothing shipped without my
-  approval. The code is private.
+  approval. The code is private;
+  **[the case study](https://nhyiramante.com/projects/ballers-hq)** tells the story.
 
 - **Reflective mind-mapping** *(research, AI Tools Lab,
   [AIToolsLab/writing-tools](https://github.com/AIToolsLab/writing-tools))*:
