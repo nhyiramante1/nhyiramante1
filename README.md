@@ -25,7 +25,7 @@ intersection of software engineering, AI systems, and creative technology.
   process that let Claude Code and Codex build in parallel from one shared plan,
   with every change reviewed by a different agent and nothing shipped without my
   approval. The code is private;
-  **[the case study](https://nhyiramante.com/projects/ballers-hq)** tells the story.
+  **[the deep dive](https://nhyiramante.com/projects/ballers-hq)** tells the story.
 
 - **Reflective mind-mapping** *(research, AI Tools Lab,
   [AIToolsLab/writing-tools](https://github.com/AIToolsLab/writing-tools))*:
